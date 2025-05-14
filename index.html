@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/ol3-search-layer.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="resources/horsey.min.js"></script>
+        <script src="resources/ol3-search-layer.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/Communes_1.js"></script><script src="layers/TauxdepauvretEPCI_2.js"></script><script src="layers/Communesnoncouvertes_3.js"></script><script src="layers/Communescouvertespardautresassociations_4.js"></script><script src="layers/Couvertureassociationspartenaires_5.js"></script><script src="layers/SSVPCommunesdesservies_6.js"></script><script src="layers/UltimoCommunesdesservies_7.js"></script><script src="layers/CentreAlimentaireduPaysdeGuimguampCommunesdesservies_8.js"></script><script src="layers/EPCICtesdArmor_9.js"></script><script src="layers/DpartementsBretagne_10.js"></script><script src="layers/Pointspostaux_11.js"></script><script src="layers/RestoduCoeur_12.js"></script><script src="layers/SPF_13.js"></script><script src="layers/SecoursCatholique_14.js"></script><script src="layers/CRF_15.js"></script><script src="layers/assospartenairesindpendantes_16.js"></script><script src="layers/assospartenaires_grandsrseauxCRFSCFSPF_17.js"></script><script src="layers/assospartenaires_CCAS_18.js"></script><script src="layers/associationspartenaires_19.js"></script><script src="layers/AntennesBABretagne_20.js"></script><script src="layers/BanquesAlimentairesdeBretagne_21.js"></script>
+        <script src="styles/Communes_1_style.js"></script><script src="styles/TauxdepauvretEPCI_2_style.js"></script><script src="styles/Communesnoncouvertes_3_style.js"></script><script src="styles/Communescouvertespardautresassociations_4_style.js"></script><script src="styles/Couvertureassociationspartenaires_5_style.js"></script><script src="styles/SSVPCommunesdesservies_6_style.js"></script><script src="styles/UltimoCommunesdesservies_7_style.js"></script><script src="styles/CentreAlimentaireduPaysdeGuimguampCommunesdesservies_8_style.js"></script><script src="styles/EPCICtesdArmor_9_style.js"></script><script src="styles/DpartementsBretagne_10_style.js"></script><script src="styles/Pointspostaux_11_style.js"></script><script src="styles/RestoduCoeur_12_style.js"></script><script src="styles/SPF_13_style.js"></script><script src="styles/SecoursCatholique_14_style.js"></script><script src="styles/CRF_15_style.js"></script><script src="styles/assospartenairesindpendantes_16_style.js"></script><script src="styles/assospartenaires_grandsrseauxCRFSCFSPF_17_style.js"></script><script src="styles/assospartenaires_CCAS_18_style.js"></script><script src="styles/associationspartenaires_19_style.js"></script><script src="styles/AntennesBABretagne_20_style.js"></script><script src="styles/BanquesAlimentairesdeBretagne_21_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
